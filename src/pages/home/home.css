@@ -1,0 +1,94 @@
+.finder {
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 125px;
+  }
+  
+  .tagline {
+    font-size: 64px;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    line-height: 80px;
+  }
+  
+  .subtagline {
+    margin-top: 75px;
+    margin-bottom: 48px;
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 900;
+  }
+  
+  .subtagline::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 7%;
+    padding-bottom: 18px;
+  }
+  
+  .finderopt {
+    margin-bottom: 35px;
+  }
+  
+  .btn-explore {
+    margin-top: 16px;
+  }
+  
+  .popular-in-town {
+    margin-top: 82px;
+    margin-bottom: 100px;
+  }
+  
+  .title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 56px;
+  }
+  
+  .view-all {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #fb8f1d;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 17px;
+  }
+  
+  .star-rate {
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .comment {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .testi-man {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+  }
+  
+  .testi-job {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+  }
+  
+  .testimonials {
+    margin-bottom: 90px;
+  }
+  
+  .reset {
+    text-decoration: none;
+    color: #000;
+  }
+  

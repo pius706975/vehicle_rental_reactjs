@@ -1,0 +1,42 @@
+.main-footer {
+    background-color: rgb(229,229,231);
+    padding: 40px 40px 20px;
+    height: auto;
+    color: rgb(150,150,139);
+}
+
+.inner {
+    padding-bottom: 40px;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.main-message {
+    width: 45%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.main-copyright {
+    width: 100%;
+}
+
+.main-footer-line {
+    position: relative;
+    max-width: 100%;
+
+    height: 2px;
+    background-color: rgb(189,189,189);
+}
+
+.main-social-media a {
+    position: relative;
+    font-size: 20px;
+    color: black;
+    margin-left: 11px;
+    margin-right: 11px;
+}

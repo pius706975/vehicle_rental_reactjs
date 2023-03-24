@@ -1,0 +1,81 @@
+.navcontainer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.nav-collapse {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.nav-menu {
+    margin-left: auto;
+    transition: 0s;
+    font-weight: 500;
+}
+.nav-menu:hover {
+    color: rgb(220, 220, 220);
+}
+.nav-menu:active {
+    color: black;
+}
+
+.nav-button {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.nav-login {
+    font-size: 15px;
+    padding: 3px 30px 3px 30px;
+    background-color: white;
+    border: solid 2px rgb(255,205,97);
+    transition: 0.15s;
+}
+.nav-login:hover {
+    background-color: rgb(247, 240, 220);
+}
+.nav-login:active {
+    background-color: rgb(245, 215, 125);
+}
+
+.nav-signup {
+    font-size: 15px;
+    padding: 5px 24px 5px 24px;
+    background-color: rgb(255,205,97);
+    border: none;
+    transition: 0.15s;
+}
+
+.img-brand {
+    cursor: pointer;
+}
+
+.nav-signup:hover {
+    background-color: rgb(204, 155, 6);
+}
+.nav-signup:active {
+    background-color: rgb(247, 240, 220);
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.profile-pic-toggle::after {
+    display: none;
+}
+
+.profile-pic {
+    width: 45px;
+    height: auto;
+    /* border-radius: 100%; */
+}
+
+.profile-menu  {
+    align-content: end;
+    left: 0;
+    right: auto;
+}

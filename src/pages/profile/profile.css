@@ -1,0 +1,106 @@
+.change-pic {
+    cursor: pointer;
+    transition: 0.1s;
+}
+.change-pic:hover {
+    color: rgb(247, 175, 19);
+}
+.change-pic:active {
+    color: rgb(255,205,97);
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-user-info {
+    color: rgb(109, 109, 109);
+    font-size: 15px;
+}
+
+.update-field {
+    width: 100%;
+    color: black;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+.edit-password-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(57, 57, 57);
+    height: 100%;
+    color: rgb(255,205,97);
+    transition: 0.15s;
+}
+.edit-password-btn:hover {
+    background-color: rgb(99, 99, 99);
+}
+.edit-password-btn:active {
+    background-color: rgb(255,205,97);
+    color: rgb(57, 57, 57);
+}
+
+.save-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255,205,97);
+    height: 100%;
+    color: rgb(57, 57, 57);
+    transition: 0.15s;
+}
+.save-btn:hover {
+    background-color: rgb(220,185,77);
+}
+.save-btn:active {
+    background-color: rgb(57, 57, 57);
+    color: rgb(255,205,97);
+}
+
+.cancel-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(211, 211, 211);
+    height: 100%;
+    color: rgb(0, 0, 0);
+    transition: 0.15s;
+}
+.cancel-btn:hover {
+    background-color: rgb(182, 182, 182);
+}
+.cancel-btn:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.gender-btn {
+    display: flex;
+    background-color: white;
+    width: 24rem;
+    height: 2.3rem;
+    border-radius: 10px;
+    gap: 5px;
+    text-align: center;
+    width: 12rem;
+    border-radius: 10px;
+}
+
+.gender-bg {
+    background-color: rgb(220,185,77);
+}
+
+.bg-css {
+    margin-top: 8px;
+}
+
+.bg-css2 {
+    margin-left: 9px;
+    font-size: small;
+}
+
+.bg-white {
+    margin-left: 9px;
+    font-size: small;
+}

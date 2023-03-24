@@ -1,0 +1,33 @@
+.card-popular {
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px;
+  }
+  
+  .card-content {
+    padding: 10px 0 0 15px;
+    height: 70px;
+    width: 45%;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    border-radius: 0 10px 0 0;
+  }
+  
+  .link-card {
+    text-decoration: none;
+    color: black;
+  }
+
+  .card-title {
+    margin-left: -10px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .card-text {
+    margin-left: -10px;
+    text-align: left;
+    font-size: 13px;
+  }
+  

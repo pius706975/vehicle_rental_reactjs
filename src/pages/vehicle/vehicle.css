@@ -1,0 +1,125 @@
+.form-input {
+    margin: 0;
+    padding: 0px 30px 0px 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.search-button {
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.search-button:active {
+    color: rgb(255,205,97);
+}
+
+.detail-image {
+    border-radius: 20px;
+    width: 500px;
+}
+
+.detail-model {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 48px;
+}
+.detail-location {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 36px;
+ }
+  
+.detail-status {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 24px;
+    color: #087e0d;
+}
+  
+.detail-desciption {
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 300;
+    color: #9b0a0a;
+}
+  
+.detail-etc {
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.detail-price {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+}
+
+.back-arrow {
+    color: black;
+    transition: 0.1s;
+}
+.back-arrow:hover {
+    color: rgb(139, 139, 139);
+}
+.back-arrow:active {
+    color: rgb(255,205,97);
+}
+
+.CA-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(57, 57, 57);
+    height: auto;
+    color: rgb(255,205,97);
+    transition: 0.15s;
+}
+.CA-button:hover {
+    background-color: rgb(99, 99, 99);
+}
+.CA-button:active {
+    background-color: rgb(255,205,97);
+    color: rgb(57, 57, 57);
+}
+
+.R-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255,205,97);
+    height: auto;
+    color: rgb(57, 57, 57);
+    transition: 0.15s;
+}
+.R-button:hover {
+    background-color: rgb(220,185,77);
+}
+.R-button:active {
+    background-color: rgb(57, 57, 57);
+    color: rgb(255,205,97);
+}
+
+.L-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(57, 57, 57);
+    height: auto;
+    color: rgb(255,205,97);
+    transition: 0.15s;
+}
+.L-button:hover {
+    background-color: rgb(99, 99, 99);
+}
+.L-button:active {
+    background-color: rgb(255,205,97);
+    color: rgb(57, 57, 57);
+}
