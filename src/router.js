@@ -7,7 +7,11 @@ import Profile from "./pages/profile/profile";
 import Reservation from "./pages/reservation/reservation";
 import SignUP from "./pages/signup/signup";
 import AddVehicle from "./pages/vehicle/addVehicle";
+import AllBicycles from "./pages/vehicle/allBicycles";
+import AllCars from "./pages/vehicle/allCars";
+import AllMotorbikes from "./pages/vehicle/allMotorbikes";
 import EditVehicle from "./pages/vehicle/editVehicle";
+import PopularVehicle from "./pages/vehicle/popularVehicle";
 import Vehicle from "./pages/vehicle/vehicle";
 import VehicleDetail from "./pages/vehicle/vehicleDetail";
 
@@ -28,6 +32,10 @@ function TheRouter() {
                 <Route path="/vehicles/edit/:id" element={<EditVehicle/>}/>
                 <Route path="/Reservation/:id" element={<Reservation/>}/>
                 <Route path="/profile/edit" element={<Profile/>}/>
+                <Route path="/vehicles/popular" element={<PopularVehicle/>}/>
+                <Route path="/vehicles/allcars" element={<AllCars/>}/>
+                <Route path="/vehicles/allmotorbikes" element={<AllMotorbikes/>}/>
+                <Route path="/vehicles/allbicycles" element={<AllBicycles/>}/>
             </Routes>
 
         </Router>

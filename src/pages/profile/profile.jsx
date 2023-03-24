@@ -13,6 +13,7 @@ import {BsTelephoneForward} from 'react-icons/bs'
 import {MdOutlineJoinInner} from 'react-icons/md'
 import Form from 'react-bootstrap/Form';
 import { Link, useNavigate } from "react-router-dom";
+import { Avatar } from "antd";
 
 
 function Profile() {
@@ -131,7 +132,7 @@ function Profile() {
 
                         <div className="profile-img text-center p-4 ">
                             <div className="flex flex-row justify-content-center">
-                                <img className="rounded-circle" style={{width:"150px", height:"150px", border:"1px black solid", objectFit:"cover", cursor:"pointer"}}  alt="." src={data7}/>
+                                <Avatar className="rounded-circle" style={{width:"150px", height:"150px", border:"1px black solid", objectFit:"cover", cursor:"pointer"}}  alt="." src={data7}/>
                                 
                                 <p className="fw-bold change-pic"><FiEdit/> Change profile picture</p>
 

@@ -110,7 +110,7 @@ function Vehicle()  {
                         </div>
     
                         <div className="col-sm-6">
-                            <Link to="/vehicles/all" className="view-all">
+                            <Link to="/vehicles/allcars" className="view-all">
                                 <p className="text-end fw-bold">{'View all '}<b>{'>'}</b></p>
                             </Link>
                         </div>
@@ -134,7 +134,7 @@ function Vehicle()  {
                         </div>
     
                         <div className="col-sm-6">
-                            <Link to="/vehicles/all" className="view-all">
+                            <Link to="/vehicles/allmotorbikes" className="view-all">
                                 <p className="text-end fw-bold">{'View all '}<b>{'>'}</b></p>
                             </Link>
                         </div>
@@ -158,7 +158,7 @@ function Vehicle()  {
                         </div>
     
                         <div className="col-sm-6">
-                            <Link to="/vehicles/all" className="view-all">
+                            <Link to="/vehicles/allbicycles" className="view-all">
                                 <p className="text-end fw-bold">{'View all '}<b>{'>'}</b></p>
                             </Link>
                         </div>
