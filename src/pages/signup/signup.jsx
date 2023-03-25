@@ -50,7 +50,7 @@ function SignUP() {
             api
             .requests({
                 method: 'POST',
-                url: '/users',
+                url: '/user/register',
                 data: Users
             }).then((res) => {
                 dispatch(addUsers(res.data))

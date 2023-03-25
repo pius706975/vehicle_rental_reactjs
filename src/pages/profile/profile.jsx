@@ -7,13 +7,16 @@ import FooterCOM from "../../components/footer/footer";
 import Api from "../../helpers/api";
 import Auth from '../../helpers/auth'
 import './profile.css'
-import {FiEdit} from 'react-icons/fi'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsTelephoneForward} from 'react-icons/bs'
 import {MdOutlineJoinInner} from 'react-icons/md'
 import Form from 'react-bootstrap/Form';
 import { Link, useNavigate } from "react-router-dom";
 import { Avatar } from "antd";
+import 'antd/dist/antd.js'
+import {FiEdit} from 'react-icons/fi'
+import { Modal } from 'antd'
+import EditPassword from "../../components/modal/editPassword";
 
 
 function Profile() {
@@ -21,6 +24,17 @@ function Profile() {
     const history = useNavigate()
     const historyHandler = ()=>{
         history(-1)
+    }
+
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const showModal = () => {
+      setIsModalOpen(true)
+    }
+    const handleOk = () => {
+      setIsModalOpen(false)
+    }
+    const handleCancel = () => {
+      setIsModalOpen(false)
     }
 
     const api = Api()
@@ -134,7 +148,11 @@ function Profile() {
                             <div className="flex flex-row justify-content-center">
                                 <Avatar className="rounded-circle" style={{width:"150px", height:"150px", border:"1px black solid", objectFit:"cover", cursor:"pointer"}}  alt="." src={data7}/>
                                 
-                                <p className="fw-bold change-pic"><FiEdit/> Change profile picture</p>
+                                <p className="fw-bold change-pic" onClick={showModal}><FiEdit/> Change profile picture</p>
+            
+                                <Modal title="Choose your profile photo" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+                                    <input type="file" placeholder="User Photo"/>
+                                </Modal>
 
                                 <h2 className="fw-bold name">{data1}</h2>
 
@@ -175,7 +193,7 @@ function Profile() {
                             </div>
 
                             <div className="col-md-4">
-                                <button className="edit-password-btn btn-lg w-100 fw-bold">Edit Password</button>
+                                <EditPassword/>
                             </div>
 
                             <div className="col-md-4">
