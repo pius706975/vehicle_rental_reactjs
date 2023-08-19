@@ -6,7 +6,6 @@ import logo from '../navbar/img/logo.png'
 import { useDispatch, useSelector } from "react-redux";
 import Api from "../../helpers/api";
 import { logout } from "../../store/reducer/user";
-import testimg from './img/test.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.js'
 
